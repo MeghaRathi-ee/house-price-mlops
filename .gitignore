@@ -1,5 +1,63 @@
+# ==== Python Cache & Temporary Files ====
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+
+# ==== Jupyter Notebook Checkpoints ====
 .ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ==== Data & Model Artifacts ====
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
 *.pkl
+*.joblib
+*.h5
+models/
+artifacts/
+outputs/
+
+# ==== Logs ====
 *.log
+logs/
+
+# ==== Environment & Config Files ====
 .env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# ==== System Files ====
+.DS_Store
+Thumbs.db
+
+# ==== MLOps Tools (MLflow, DVC, etc.) ====
+mlruns/
+.dvc/
+dvc.lock
+
+# ==== Docker, VSCode, and Other Dev Files ====
+.vscode/
+docker-compose.yml
+Dockerfile
+*.local
+*.bak
